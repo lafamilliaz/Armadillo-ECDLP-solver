@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7c5eb57b-386d-4b37-959f-1dc811c692c1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2e20fa76-1bf3-4df2-80d5-61c370da6896}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9d5912c0-7f89-46bd-ae33-11eb5bac3226}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\miracl_x86">
+      <UniqueIdentifier>{9ec7f79e-49b7-440e-8b55-18745bbf50d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\miracl_x64">
+      <UniqueIdentifier>{9b732ace-f2d9-4d47-975a-10df530b7c09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mraes.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mralloc.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrarth0.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrarth1.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrarth2.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrarth3.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrbits.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrbrick.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrcore.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrcrt.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrcurve.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrebrick.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrec2m.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrecn2.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrfast.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrfpe.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrgcd.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrgcm.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrgf2m.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrio1.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrio2.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrjack.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrlucas.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrmonty.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrpower.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrprime.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrrand.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrscrt.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrsha3.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrshs.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrshs256.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrshs512.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrsmall.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrsroot.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrstrong.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrxgcd.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrzzn2.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrzzn2b.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x86\mrzzn3.c">
+      <Filter>Source Files\miracl_x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mraes.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mralloc.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrarth0.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrarth1.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrarth2.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrarth3.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrbits.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrbrick.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrcore.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrcrt.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrcurve.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrebrick.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrec2m.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrecn2.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrfast.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrfpe.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrgcd.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrgcm.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrgf2m.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrio1.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrio2.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrjack.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrlucas.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrmonty.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrmuldv.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrpower.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrprime.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrrand.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrscrt.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrsha3.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrshs.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrshs256.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrshs512.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrsmall.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrsroot.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrstrong.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrxgcd.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrzzn2.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrzzn2b.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src_x64\mrzzn3.c">
+      <Filter>Source Files\miracl_x64</Filter>
+    </ClCompile>
+    <ClCompile Include="ecc113.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ecc113.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
